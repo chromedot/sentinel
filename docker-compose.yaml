@@ -3,5 +3,6 @@ services:
   modsecurity:
     build: .
     restart: always
-    ports: 9090:80
+    ports: 
+    - "9090:80"
     
