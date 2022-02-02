@@ -1,0 +1,705 @@
+--3921e16e-A--
+[02/Feb/2022:13:52:01 +0000] YfqMgRH6qNaCbuG4bCr4LgAAAAY 127.0.0.1 47208 127.0.0.1 9595
+--3921e16e-B--
+GET / HTTP/1.1
+User-Agent: Wget/1.20.1 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: 127.0.0.1:9595
+Connection: Keep-Alive
+
+--3921e16e-F--
+HTTP/1.1 200 OK
+Last-Modified: Wed, 02 Feb 2022 13:45:45 GMT
+ETag: "29cd-5d7093c021440"
+Accept-Ranges: bytes
+Content-Length: 10701
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+
+--3921e16e-E--
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Apache2 Debian Default Page: It works</title>
+    <style type="text/css" media="screen">
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+
+    background-color: #D8DBE2;
+
+    font-family: Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+
+    width: 800px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+    border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
+
+    background-color: #FFFFFF;
+
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 99px;
+    width: 100%;
+
+    background-color: #F5F6F7;
+  }
+
+  div.page_header span {
+    margin: 15px 0px 0px 50px;
+
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+  div.page_header img {
+    margin: 3px 0px 0px 40px;
+
+    border: 0px 0px 0px;
+  }
+
+  div.table_of_contents {
+    clear: left;
+
+    min-width: 200px;
+
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.table_of_contents_item {
+    clear: left;
+
+    width: 100%;
+
+    margin: 4px 0px 0px 0px;
+
+    background-color: #FFFFFF;
+
+    color: #000000;
+    text-align: left;
+  }
+
+  div.table_of_contents_item a {
+    margin: 6px 0px 0px 6px;
+  }
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+
+    color: #000000;
+    font-size: 100%;
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+    background-color: #F5F6F7;
+
+    font-style: italic;
+  }
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+    padding: 4px 8px 4px 16px;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #8E9CB2;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.section_header_red {
+    background-color: #CD214F;
+  }
+
+  div.section_header_grey {
+    background-color: #9F9386;
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+  div.table_of_contents_item a,
+  div.content_section_text a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  div.table_of_contents_item a:link,
+  div.table_of_contents_item a:visited,
+  div.table_of_contents_item a:active {
+    color: #000000;
+  }
+
+  div.table_of_contents_item a:hover {
+    background-color: #000000;
+
+    color: #FFFFFF;
+  }
+
+  div.content_section_text a:link,
+  div.content_section_text a:visited,
+   div.content_section_text a:active {
+    background-color: #DCDFE6;
+
+    color: #000000;
+  }
+
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+
+  div.validator {
+  }
+    </style>
+  </head>
+  <body>
+    <div class="main_page">
+      <div class="page_header floating_element">
+        <img src="/icons/openlogo-75.png" alt="Debian Logo" class="floating_element"/>
+        <span class="floating_element">
+          Apache2 Debian Default Page
+        </span>
+      </div>
+<!--      <div class="table_of_contents floating_element">
+        <div class="section_header section_header_grey">
+          TABLE OF CONTENTS
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#about">About</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#changes">Changes</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#scope">Scope</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#files">Config files</a>
+        </div>
+      </div>
+-->
+      <div class="content_section floating_element">
+
+
+        <div class="section_header section_header_red">
+          <div id="about"></div>
+          It works!
+        </div>
+        <div class="content_section_text">
+          <p>
+                This is the default welcome page used to test the correct 
+                operation of the Apache2 server after installation on Debian systems.
+                If you can read this page, it means that the Apache HTTP server installed at
+                this site is working properly. You should <b>replace this file</b> (located at
+                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.
+          </p>
+
+
+          <p>
+                If you are a normal user of this web site and don't know what this page is
+                about, this probably means that the site is currently unavailable due to
+                maintenance.
+                If the problem persists, please contact the site's administrator.
+          </p>
+
+        </div>
+        <div class="section_header">
+          <div id="changes"></div>
+                Configuration Overview
+        </div>
+        <div class="content_section_text">
+          <p>
+                Debian's Apache2 default configuration is different from the
+                upstream default configuration, and split into several files optimized for
+                interaction with Debian tools. The configuration system is
+                <b>fully documented in
+                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
+                documentation. Documentation for the web server itself can be
+                found by accessing the <a href="/manual">manual</a> if the <tt>apache2-doc</tt>
+                package was installed on this server.
+
+          </p>
+          <p>
+                The configuration layout for an Apache2 web server installation on Debian systems is as follows:
+          </p>
+          <pre>
+/etc/apache2/
+|-- apache2.conf
+|       `--  ports.conf
+|-- mods-enabled
+|       |-- *.load
+|       `-- *.conf
+|-- conf-enabled
+|       `-- *.conf
+|-- sites-enabled
+|       `-- *.conf
+          </pre>
+          <ul>
+                        <li>
+                           <tt>apache2.conf</tt> is the main configuration
+                           file. It puts the pieces together by including all remaining configuration
+                           files when starting up the web server.
+                        </li>
+
+                        <li>
+                           <tt>ports.conf</tt> is always included from the
+                           main configuration file. It is used to determine the listening ports for
+                           incoming connections, and this file can be customized anytime.
+                        </li>
+
+                        <li>
+                           Configuration files in the <tt>mods-enabled/</tt>,
+                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain
+                           particular configuration snippets which manage modules, global configuration
+                           fragments, or virtual host configurations, respectively.
+                        </li>
+
+                        <li>
+                           They are activated by symlinking available
+                           configuration files from their respective
+                           *-available/ counterparts. These should be managed
+                           by using our helpers
+                           <tt>
+                                a2enmod,
+                                a2dismod,
+                           </tt>
+                           <tt>
+                                a2ensite,
+                                a2dissite,
+                            </tt>
+                                and
+                           <tt>
+                                a2enconf,
+                                a2disconf
+                           </tt>. See their respective man pages for detailed information.
+                        </li>
+
+                        <li>
+                           The binary is called apache2. Due to the use of
+                           environment variables, in the default configuration, apache2 needs to be
+                           started/stopped with <tt>/etc/init.d/apache2</tt> or <tt>apache2ctl</tt>.
+                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the
+                           default configuration.
+                        </li>
+          </ul>
+        </div>
+
+        <div class="section_header">
+            <div id="docroot"></div>
+                Document Roots
+        </div>
+
+        <div class="content_section_text">
+            <p>
+                By default, Debian does not allow access through the web browser to
+                <em>any</em> file apart of those located in <tt>/var/www</tt>,
+                <a href="http://httpd.apache.org/docs/2.4/mod/mod_userdir.html" rel="nofollow">public_html</a>
+                directories (when enabled) and <tt>/usr/share</tt> (for web
+                applications). If your site is using a web document root
+                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your
+                document root directory in <tt>/etc/apache2/apache2.conf</tt>.
+            </p>
+            <p>
+                The default Debian document root is <tt>/var/www/html</tt>. You
+                can make your own virtual hosts under /var/www. This is different
+                to previous releases which provides better security out of the box.
+            </p>
+        </div>
+
+        <div class="section_header">
+          <div id="bugs"></div>
+                Reporting Problems
+        </div>
+        <div class="content_section_text">
+          <p>
+                Please use the <tt>reportbug</tt> tool to report bugs in the
+                Apache2 package with Debian. However, check <a
+                href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?ordering=normal;archive=0;src=apache2;repeatmerged=0"
+                rel="nofollow">existing bug reports</a> before reporting a new bug.
+          </p>
+          <p>
+                Please report bugs specific to modules (such as PHP and others)
+                to respective packages, not to the web server itself.
+          </p>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <div class="validator">
+    </div>
+  </body>
+</html>
+
+
+--3921e16e-H--
+Message: Warning. Pattern match "(?:^([\\d.]+|\\[[\\da-f:]+\\]|[\\da-f:]+)(:[\\d]+)?$)" at REQUEST_HEADERS:Host. [file "/etc/modsecurity/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "787"] [id "920350"] [msg "Host header is a numeric IP address"] [data "127.0.0.1:9595"] [severity "WARNING"] [ver "OWASP_CRS/3.4.0-dev"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/210/272"] [tag "PCI/6.5.10"]
+Message: Warning. Operator GT matched 1 at TX:executing_anomaly_score. [file "/etc/modsecurity/rules/RESPONSE-980-CORRELATION.conf"] [line "77"] [id "980120"] [msg "Inbound Anomaly Score (Total Inbound Score: 0 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=0,HTTP=0,SESS=0): individual paranoia level scores: 3, 0, 0, 0"] [ver "OWASP_CRS/3.4.0-dev"] [tag "event-correlation"]
+Apache-Error: [file "apache2_util.c"] [line 271] [level 3] [client 127.0.0.1] ModSecurity: Warning. Pattern match "(?:^([\\\\\\\\d.]+|\\\\\\\\[[\\\\\\\\da-f:]+\\\\\\\\]|[\\\\\\\\da-f:]+)(:[\\\\\\\\d]+)?$)" at REQUEST_HEADERS:Host. [file "/etc/modsecurity/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "787"] [id "920350"] [msg "Host header is a numeric IP address"] [data "127.0.0.1:9595"] [severity "WARNING"] [ver "OWASP_CRS/3.4.0-dev"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/210/272"] [tag "PCI/6.5.10"] [hostname "127.0.0.1"] [uri "/"] [unique_id "YfqMgRH6qNaCbuG4bCr4LgAAAAY"]
+Apache-Error: [file "apache2_util.c"] [line 271] [level 3] [client 127.0.0.1] ModSecurity: Warning. Operator GT matched 1 at TX:executing_anomaly_score. [file "/etc/modsecurity/rules/RESPONSE-980-CORRELATION.conf"] [line "77"] [id "980120"] [msg "Inbound Anomaly Score (Total Inbound Score: 0 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=0,HTTP=0,SESS=0): individual paranoia level scores: 3, 0, 0, 0"] [ver "OWASP_CRS/3.4.0-dev"] [tag "event-correlation"] [hostname "127.0.0.1"] [uri "/index.html"] [unique_id "YfqMgRH6qNaCbuG4bCr4LgAAAAY"]
+Stopwatch: 1643809921814673 3941 (- - -)
+Stopwatch2: 1643809921814673 3941; combined=3079, p1=1024, p2=348, p3=48, p4=1499, p5=159, sr=129, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.4.0-dev.
+Server: Apache/2.4.52 (Debian)
+Engine-Mode: "ENABLED"
+
+--3921e16e-Z--
+
+--3921e16e-A--
+[02/Feb/2022:13:52:37 +0000] YfqMpVA14PZqsFjmxTBxTQAAAEc 129.6.165.157 24160 129.6.19.23 9595
+--3921e16e-B--
+GET /?testparam=test HTTP/1.1
+Host: sailor.nist.gov:9595
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: _ce.s=v~6ac7e183f6f149fed043a7e77689c70546336976~vv~2~ir~1; _ga_KXYNTVZZ2Y=GS1.1.1623243968.2.0.1623243968.0; _ga_1Q89M6QHG7=GS1.1.1631281075.15.0.1631281086.49; _ga_Q6390CJ07F=GS1.1.1636985184.15.0.1636985187.0; _ga=GA1.2.825704593.1613164170; _gid=GA1.2.524007027.1643640328; _gat=1
+
+--3921e16e-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 199
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--3921e16e-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>
+
+--3921e16e-H--
+Message: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"]
+Apache-Error: [file "apache2_util.c"] [line 271] [level 3] [client 129.6.165.157] ModSecurity: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"] [hostname "sailor.nist.gov"] [uri "/"] [unique_id "YfqMpVA14PZqsFjmxTBxTQAAAEc"]
+Action: Intercepted (phase 2)
+Stopwatch: 1643809957842936 3299 (- - -)
+Stopwatch2: 1643809957842936 3299; combined=2668, p1=721, p2=1860, p3=0, p4=0, p5=87, sr=112, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.4.0-dev.
+Server: Apache/2.4.52 (Debian)
+Engine-Mode: "ENABLED"
+
+--3921e16e-Z--
+
+--5b60d964-A--
+[02/Feb/2022:14:06:57 +0000] YfqQAQqJa9bs1CQ35ZL_sQAAAFA 129.6.165.157 51172 129.6.19.23 9595
+--5b60d964-B--
+GET /?testparam=test HTTP/1.1
+Host: sailor.nist.gov:9595
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: _ce.s=v~6ac7e183f6f149fed043a7e77689c70546336976~vv~2~ir~1; _ga_KXYNTVZZ2Y=GS1.1.1623243968.2.0.1623243968.0; _ga_1Q89M6QHG7=GS1.1.1631281075.15.0.1631281086.49; _ga_Q6390CJ07F=GS1.1.1636985184.15.0.1636985187.0; _ga=GA1.2.825704593.1613164170; _gid=GA1.2.524007027.1643640328
+
+--5b60d964-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 199
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--5b60d964-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>
+
+--5b60d964-H--
+Message: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"]
+Apache-Error: [file "apache2_util.c"] [line 271] [level 3] [client 129.6.165.157] ModSecurity: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"] [hostname "sailor.nist.gov"] [uri "/"] [unique_id "YfqQAQqJa9bs1CQ35ZL_sQAAAFA"]
+Action: Intercepted (phase 2)
+Stopwatch: 1643810817458643 4207 (- - -)
+Stopwatch2: 1643810817458643 4207; combined=3274, p1=1125, p2=2027, p3=0, p4=0, p5=122, sr=138, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.4.0-dev.
+Server: Apache/2.4.52 (Debian)
+Engine-Mode: "ENABLED"
+
+--5b60d964-Z--
+
+--13480822-A--
+[02/Feb/2022:14:06:57 +0000] YfqQAQqJa9bs1CQ35ZL_sgAAAFE 129.6.165.157 51172 129.6.19.23 9595
+--13480822-B--
+GET /?testparam=test HTTP/1.1
+Host: sailor.nist.gov:9595
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: _ce.s=v~6ac7e183f6f149fed043a7e77689c70546336976~vv~2~ir~1; _ga_KXYNTVZZ2Y=GS1.1.1623243968.2.0.1623243968.0; _ga_1Q89M6QHG7=GS1.1.1631281075.15.0.1631281086.49; _ga_Q6390CJ07F=GS1.1.1636985184.15.0.1636985187.0; _ga=GA1.2.825704593.1613164170; _gid=GA1.2.524007027.1643640328
+
+--13480822-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 199
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--13480822-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>
+
+--13480822-H--
+Message: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"]
+Apache-Error: [file "apache2_util.c"] [line 271] [level 3] [client 129.6.165.157] ModSecurity: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"] [hostname "sailor.nist.gov"] [uri "/"] [unique_id "YfqQAQqJa9bs1CQ35ZL_sgAAAFE"]
+Action: Intercepted (phase 2)
+Stopwatch: 1643810817796334 3095 (- - -)
+Stopwatch2: 1643810817796334 3095; combined=2464, p1=758, p2=1612, p3=0, p4=0, p5=93, sr=120, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.4.0-dev.
+Server: Apache/2.4.52 (Debian)
+Engine-Mode: "ENABLED"
+
+--13480822-Z--
+
+--172c416f-A--
+[02/Feb/2022:14:07:08 +0000] YfqQDAqJa9bs1CQ35ZL_tAAAAFI 129.6.165.157 58349 129.6.19.23 9595
+--172c416f-B--
+GET /?testparam=test HTTP/1.1
+Host: sailor.nist.gov:9595
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: _ce.s=v~6ac7e183f6f149fed043a7e77689c70546336976~vv~2~ir~1; _ga_KXYNTVZZ2Y=GS1.1.1623243968.2.0.1623243968.0; _ga_1Q89M6QHG7=GS1.1.1631281075.15.0.1631281086.49; _ga_Q6390CJ07F=GS1.1.1636985184.15.0.1636985187.0; _ga=GA1.2.825704593.1613164170; _gid=GA1.2.524007027.1643640328
+
+--172c416f-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 199
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--172c416f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>
+
+--172c416f-H--
+Message: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"]
+Apache-Error: [file "apache2_util.c"] [line 271] [level 3] [client 129.6.165.157] ModSecurity: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"] [hostname "sailor.nist.gov"] [uri "/"] [unique_id "YfqQDAqJa9bs1CQ35ZL_tAAAAFI"]
+Action: Intercepted (phase 2)
+Stopwatch: 1643810828099779 3531 (- - -)
+Stopwatch2: 1643810828099779 3531; combined=2589, p1=867, p2=1603, p3=0, p4=0, p5=119, sr=124, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.4.0-dev.
+Server: Apache/2.4.52 (Debian)
+Engine-Mode: "ENABLED"
+
+--172c416f-Z--
+
+--68081d4c-A--
+[02/Feb/2022:14:07:08 +0000] YfqQDAqJa9bs1CQ35ZL_tQAAAEw 129.6.165.157 58349 129.6.19.23 9595
+--68081d4c-B--
+GET /?testparam=test HTTP/1.1
+Host: sailor.nist.gov:9595
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: _ce.s=v~6ac7e183f6f149fed043a7e77689c70546336976~vv~2~ir~1; _ga_KXYNTVZZ2Y=GS1.1.1623243968.2.0.1623243968.0; _ga_1Q89M6QHG7=GS1.1.1631281075.15.0.1631281086.49; _ga_Q6390CJ07F=GS1.1.1636985184.15.0.1636985187.0; _ga=GA1.2.825704593.1613164170; _gid=GA1.2.524007027.1643640328
+
+--68081d4c-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 199
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--68081d4c-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>
+
+--68081d4c-H--
+Message: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"]
+Apache-Error: [file "apache2_util.c"] [line 271] [level 3] [client 129.6.165.157] ModSecurity: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"] [hostname "sailor.nist.gov"] [uri "/"] [unique_id "YfqQDAqJa9bs1CQ35ZL_tQAAAEw"]
+Action: Intercepted (phase 2)
+Stopwatch: 1643810828486996 3327 (- - -)
+Stopwatch2: 1643810828486996 3327; combined=2561, p1=722, p2=1706, p3=0, p4=0, p5=133, sr=105, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.4.0-dev.
+Server: Apache/2.4.52 (Debian)
+Engine-Mode: "ENABLED"
+
+--68081d4c-Z--
+
+--a70d0a57-A--
+[02/Feb/2022:14:07:08 +0000] YfqQDAqJa9bs1CQ35ZL_tgAAAFM 129.6.165.157 58349 129.6.19.23 9595
+--a70d0a57-B--
+GET /?testparam=test HTTP/1.1
+Host: sailor.nist.gov:9595
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: _ce.s=v~6ac7e183f6f149fed043a7e77689c70546336976~vv~2~ir~1; _ga_KXYNTVZZ2Y=GS1.1.1623243968.2.0.1623243968.0; _ga_1Q89M6QHG7=GS1.1.1631281075.15.0.1631281086.49; _ga_Q6390CJ07F=GS1.1.1636985184.15.0.1636985187.0; _ga=GA1.2.825704593.1613164170; _gid=GA1.2.524007027.1643640328
+
+--a70d0a57-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 199
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--a70d0a57-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>
+
+--a70d0a57-H--
+Message: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"]
+Apache-Error: [file "apache2_util.c"] [line 271] [level 3] [client 129.6.165.157] ModSecurity: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"] [hostname "sailor.nist.gov"] [uri "/"] [unique_id "YfqQDAqJa9bs1CQ35ZL_tgAAAFM"]
+Action: Intercepted (phase 2)
+Stopwatch: 1643810828691206 9281 (- - -)
+Stopwatch2: 1643810828691206 9281; combined=4134, p1=1705, p2=2274, p3=0, p4=0, p5=154, sr=128, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.4.0-dev.
+Server: Apache/2.4.52 (Debian)
+Engine-Mode: "ENABLED"
+
+--a70d0a57-Z--
+
+--4d761d03-A--
+[02/Feb/2022:14:07:08 +0000] YfqQDAqJa9bs1CQ35ZL_twAAAEs 129.6.165.157 58349 129.6.19.23 9595
+--4d761d03-B--
+GET /?testparam=test HTTP/1.1
+Host: sailor.nist.gov:9595
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: _ce.s=v~6ac7e183f6f149fed043a7e77689c70546336976~vv~2~ir~1; _ga_KXYNTVZZ2Y=GS1.1.1623243968.2.0.1623243968.0; _ga_1Q89M6QHG7=GS1.1.1631281075.15.0.1631281086.49; _ga_Q6390CJ07F=GS1.1.1636985184.15.0.1636985187.0; _ga=GA1.2.825704593.1613164170; _gid=GA1.2.524007027.1643640328
+
+--4d761d03-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 199
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--4d761d03-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>
+
+--4d761d03-H--
+Message: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"]
+Apache-Error: [file "apache2_util.c"] [line 271] [level 3] [client 129.6.165.157] ModSecurity: Access denied with code 403 (phase 2). String match "test" at ARGS:testparam. [file "/etc/apache2/sites-enabled/000-default.conf"] [line "31"] [id "254"] [msg "Test Successful"] [hostname "sailor.nist.gov"] [uri "/"] [unique_id "YfqQDAqJa9bs1CQ35ZL_twAAAEs"]
+Action: Intercepted (phase 2)
+Stopwatch: 1643810828879212 3159 (- - -)
+Stopwatch2: 1643810828879212 3159; combined=2590, p1=716, p2=1754, p3=0, p4=0, p5=120, sr=98, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.4.0-dev.
+Server: Apache/2.4.52 (Debian)
+Engine-Mode: "ENABLED"
+
+--4d761d03-Z--
+

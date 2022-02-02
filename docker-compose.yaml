@@ -1,8 +1,18 @@
-version: '3.0'
+version: '3.5'
 services:
   modsecurity:
+    network_mode: host
     build: .
+    container_name: sentinel
+    hostname: sentinel
+    image: sentinel
     restart: always
-    ports: 
-    - "9090:80"
+    volumes:
+      - ./logs:/var/log/apache2
+    entrypoint:
+      - /bin/sh
+      - -c
+      - '/bin/bash /app/entrypoint.sh'
+#    ports: 
+#    - "9595:9696"
     
